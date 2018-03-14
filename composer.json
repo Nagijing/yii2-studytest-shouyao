@@ -1,35 +1,34 @@
-# yii console commands
-/yii
-/yii_test
-/yii_test.bat
-
-# phpstorm project files
-.idea
-
-# netbeans project files
-nbproject
-
-# zend studio for eclipse project files
-.buildpath
-.project
-.settings
-
-# windows thumbnail cache
-Thumbs.db
-
-# composer vendor dir
-/vendor
-
-# composer itself is not needed
-composer.phar
-
-# Mac DS_Store Files
-.DS_Store
-
-# phpunit itself is not needed
-phpunit.phar
-# local phpunit config
-/phpunit.xml
-
-# vagrant runtime
-/.vagrant
+{  
+  "name": "Nagijing/yii2-shouyao",  
+  "description": "Yii2 Nagijing shouyao",  
+  "keywords": [  
+    "yii2",  
+    "terrytest"  
+  ],  
+  "homepage": "https://github.com/Nagijing/yii2-studytest-shouyao",  
+  "type": "yii2-extension",  
+  "license": "MIT",  
+  "support": {  
+    "source": "https://github.com/Nagijing/yii2-studytest-shouyao"  
+  },  
+  "authors": [  
+    {  
+      "name": "Nagijing",  
+      "email": "805479794@qq.com"  
+    }  
+  ],  
+  "minimum-stability": "stable",  
+  "require": {  
+    "php": ">=5.4.0",  
+    "yiisoft/yii2": ">=2.0.6"  
+     
+  },  
+  "autoload": {  
+    "psr-4": {  
+      "terry\\": ""  
+    }  
+  },  
+  "config": {  
+    "process-timeout": 1800  
+  }  
+} 
